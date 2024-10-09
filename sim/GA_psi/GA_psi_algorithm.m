@@ -16,7 +16,7 @@ warning("off","all");
 format short g;
 % load('iniPop_after1st.mat');
 % initialPopulation = 100*iniPop_after1st;
-      
+
 % GA Options
 
 ga_opt = optimoptions(@ga, 'Display', 'off', 'Generations', ...
